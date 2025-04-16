@@ -57,6 +57,67 @@ nav ul li a:hover {
     display: block;
 }
 
+/* Featured Section */
+.product-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #f05a28;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.product-card {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(240, 90, 40, 0.5);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card p {
+    margin-top: 0.75rem;
+    color: #f05a28;
+}
+
+/* About Section */
+#about {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #f05a28;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ccc;
+    line-height: 1.8;
+}
+
 /* Shop Now Section */
 #shop-now {
     padding: 3rem 2rem;
@@ -111,4 +172,21 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Image Sources Mapping to HTML */
+/* 
+Place these images in your "images" folder:
+
+1. neon-shadows-leather-souls.jpg => Neon Shadows & Leather Souls
+2. leather-neon-fury.jpg => Leather & Neon Fury
+3. where-shadows-roar.jpg => Where Shadows Roar
+4. the-howl-between-shadows.jpg => The Howl Between Shadows
+5. ballet-in-the-dark-where-grace-meets-the-streets.jpg => Ballet In The Dark
+6. neon-nightfall-where-shadows-meet-the-dance.jpg => Neon Nightfall
+7. the-rebel.jpg => The Rebel
+8. the-southpaw-saint.jpg => The Southpaw Saint
+9. echoes-of-her.jpg => Echoes Of Her
+10. echo-on-the-wall.jpg => Echo On The Wall
+11. banner.jpg => Banner Image
+*/
 
